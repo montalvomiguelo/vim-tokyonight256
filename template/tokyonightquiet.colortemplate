@@ -1,0 +1,74 @@
+; vim: cc=25,40,55 vsts=24,15,15,4
+Full name:   Tokyo Night Quiet
+Short name:  tokyonightquiet
+Author:      Miguel Montalvo <me@montalvomiguelo.com>
+
+; Common linked groups {{{
+Terminal                -> Normal
+StatusLineTerm          -> StatusLine
+StatusLineTermNC        -> StatusLineNC
+MessageWindow           -> Pmenu
+PopupNotification       -> Todo
+Boolean                 -> Constant
+Character               -> Constant
+Conditional             -> Statement
+Define                  -> PreProc
+Debug                   -> Special
+Delimiter               -> Special
+Exception               -> Statement
+Float                   -> Constant
+Function                -> Identifier
+Include                 -> PreProc
+Keyword                 -> Statement
+Label                   -> Statement
+Macro                   -> PreProc
+Number                  -> Constant
+Operator                -> Statement
+PreCondit               -> PreProc
+Repeat                  -> Statement
+SpecialChar             -> Special
+SpecialComment          -> Special
+StorageClass            -> Type
+String                  -> Constant
+Structure               -> Type
+Tag                     -> Special
+Typedef                 -> Type
+; See `:help lCursor`
+lCursor                 -> Cursor
+; Custom
+debugBreakpoint         -> ModeMsg
+debugPC                 -> CursorLine
+; }}}
+
+Variant:    gui 256
+Background: dark
+
+;;; Color palette
+Color: black            #1b1d2b        ~
+Color: bghighlight      #2f334d        ~
+Color: dark5            #737aa2        ~
+Color: white            #c8d3f5        ~
+Color: diffadd          #273849        ~
+Color: diffchange       #252a3f        ~
+Color: diffdelete       #3a273a        ~
+Color: difftext         #394b70        ~
+
+;;; Highlight group definitions
+; Group                 Foreground     Background     Attributes
+ColorColumn             none           black
+Conceal                 none           none
+Cursor                  white          black
+CursorColumn            white          black
+CursorLine              none           bghighlight
+CursorLineNr            dark5          none
+DiffAdd                 none           diffadd
+DiffChange              none           diffchange
+DiffDelete              none           diffdelete
+DiffText                none           difftext
+Normal                  white          none
+LineNr                  white          none
+SignColumn              white          none
+
+Term colors: white white white white white white white white
+Term colors: black black black black black black black black
+
