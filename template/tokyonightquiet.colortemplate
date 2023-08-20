@@ -13,7 +13,6 @@ PopupNotification       -> Todo
 Boolean                 -> Constant
 Character               -> Constant
 Conditional             -> Statement
-CurSearch               -> IncSearch
 Define                  -> PreProc
 Debug                   -> Special
 Delimiter               -> Special
