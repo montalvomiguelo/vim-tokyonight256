@@ -1,0 +1,134 @@
+; vim: cc=25,40,55 vsts=24,15,15,4
+Full name:   Tokyo Night 256 Moon
+Short name:  tokyonight256_moon
+Author:      Miguel Montalvo <me@montalvomiguelo.com>
+
+; Common linked groups {{{
+Terminal                -> Normal
+StatusLineTerm          -> StatusLine
+StatusLineTermNC        -> StatusLineNC
+MessageWindow           -> Pmenu
+PopupNotification       -> Todo
+; See `:help lCursor`
+lCursor                 -> Cursor
+; Custom
+debugBreakpoint         -> ModeMsg
+debugPC                 -> CursorLine
+; ft&plug links
+javaScriptFunction      -> Statement
+javaScriptIdentifier    -> Statement
+sqlKeyword              -> Statement
+yamlBlockMappingKey     -> Statement
+rubyMacro               -> Statement
+rubyDefine              -> Statement
+vimVar                  -> Normal
+vimOper                 -> Normal
+vimSep                  -> Normal
+vimParenSep             -> Normal
+vimCommentString        -> Comment
+gitCommitSummary        -> Title
+markdownUrl             -> String
+; }}}
+
+Variant:    gui 256
+Background: dark
+
+; Color palette
+Color: dark0            #1b1d2b        ~
+Color: dark1            #394b70        ~
+Color: dark2            #1e2030        ~
+Color: dark3            #545c7e        ~
+Color: dark4            #ff966c        ~
+Color: dark5            #737aa2        ~
+Color: dark6            #ffc777        ~
+Color: dark7            #222436        ~
+Color: dark8            #636da6        ~
+Color: dark9            #2f334d        ~
+Color: dark10           #c53b53        ~
+Color: dark11           #2d3f76        ~
+Color: dark12           #82aaff        ~
+Color: dark13           #828bb8        ~
+Color: dark14           #3b4261        ~
+Color: dark15           #c8d3f5        ~
+Color: diffadd          #273849        ~
+Color: diffchange       #252a3f        ~
+Color: diffdelete       #3a273a        ~
+Color: uipmenusidebar   #292b3a        ~
+Color: uipmenuselect    #363c58        ~
+Color: uisearch         #3e68d7        ~
+Color: uispelllocal     #0db9d7        ~
+Color: uispellrare      #4fd6be        ~
+Color: uiidentifier     #c099ff        ~
+Color: uipreproc        #86e1fc        ~
+Color: uispecial        #65bcff        ~
+
+; Highlight group definitions
+
+Normal                  dark15         dark7
+ColorColumn             none           dark0
+Conceal                 none           none
+Cursor                  none           none           reverse
+CursorColumn            none           dark9
+CursorLine              none           dark9
+CursorLineNr            dark5          none
+DiffAdd                 none           diffadd
+DiffChange              none           diffchange
+DiffDelete              none           diffdelete
+DiffText                none           dark1
+Directory               dark12         none
+EndOfBuffer             dark7          none
+ErrorMsg                dark10         none
+FoldColumn              dark8          dark7
+Folded                  dark12         dark14
+IncSearch               dark0          dark4
+LineNr                  dark14         none
+MatchParen              dark4          none           bold
+ModeMsg                 dark13         none           bold
+MoreMsg                 dark12         none
+NonText                 dark3          none
+Pmenu                   dark15         dark2
+PmenuSbar               none           uipmenusidebar
+PmenuSel                none           uipmenuselect
+PmenuThumb              none           dark14
+Question                dark12         none
+QuickFixLine            none           dark11         bold
+Search                  dark15         uisearch
+SignColumn              dark14         dark7
+SpecialKey              dark3          none
+SpellBad                none           none           undercurl s=dark10
+SpellCap                none           none           undercurl s=dark6
+SpellLocal              none           none           undercurl s=uispelllocal
+SpellRare               none           none           undercurl s=uispellrare
+StatusLine              dark13         dark2
+StatusLineNC            dark14         dark2
+TabLine                 dark14         dark2
+TabLineFill             none           dark0
+TabLineSel              dark0          dark12
+Title                   none           none
+VertSplit               dark0          none
+Visual                  none           dark11
+VisualNOS               none           dark11
+WarningMsg              dark6          none
+WildMenu                dark11         none
+; Other conventional group names (see `:help group-name`)
+Comment                 dark8          none
+Constant                dark4          none
+Error                   dark10         none
+Identifier              uiidentifier   none
+Ignore                  none           none
+PreProc                 uipreproc      none
+Special                 uispecial      none
+Statement               uiidentifier   none
+Todo                    dark7          dark6
+Type                    uispecial      none
+Underlined              none           none           underline
+; See `:help CursorIM`
+CursorIM                dark7          dark15
+; See `:help window-toolbar`
+ToolbarLine             none           dark0
+ToolbarButton           dark15         dark0          bold
+
+; Terminal colors {{{
+Term colors: dark0 dark1 dark2 dark3 dark4 dark5 dark6 dark7
+Term colors: dark8 dark9 dark10 dark11 dark12 dark13 dark14 dark15
+; }}}
