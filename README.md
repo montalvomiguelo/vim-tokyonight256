@@ -1,6 +1,8 @@
-# vim-tokyonight256
+# 🌃 vim-tokyonight256
 A port of [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim) to Vim.
-## tokyonight256_quiet
-<img width="1822" alt="Screenshot 2023-08-21 at 5 34 03 PM" src="https://github.com/montalvomiguelo/vim-tokyonight256/assets/5134470/c17c7a58-b30a-4a84-94fc-819377b75098">
+
 ## tokyonight256_moon
-<img width="1822" alt="Screenshot 2023-08-21 at 5 05 20 PM" src="https://github.com/montalvomiguelo/vim-tokyonightquiet/assets/5134470/912a568f-ee02-4a7e-b133-bb196fb36970">
+<img width="1822" alt="Screenshot 2023-08-21 at 6 03 53 PM" src="https://github.com/montalvomiguelo/vim-tokyonight256/assets/5134470/4545e5fc-93bb-4d76-b808-acdc2fab3877">
+
+## tokyonight256_quiet
+<img width="1822" alt="Screenshot 2023-08-21 at 6 04 59 PM" src="https://github.com/montalvomiguelo/vim-tokyonight256/assets/5134470/ce115497-9278-4534-8864-fa2f9e67c5ff">
