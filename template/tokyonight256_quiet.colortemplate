@@ -1,6 +1,6 @@
 ; vim: cc=25,40,55 vsts=24,15,15,4
-Full name:   Tokyo Night Quiet
-Short name:  tokyonight_quiet
+Full name:   Tokyo Night 256 Quiet
+Short name:  tokyonight256_quiet
 Description: A mostly monochrome colorscheme, with a few niceties.
 Author:      Miguel Montalvo <me@montalvomiguelo.com>
 
@@ -139,4 +139,3 @@ ToolbarButton           dark15         dark0          bold
 Term colors: dark0 dark1 dark2 dark3 dark4 dark5 dark6 dark7
 Term colors: dark8 dark9 dark10 dark11 dark12 dark13 dark14 dark15
 ; }}}
-
