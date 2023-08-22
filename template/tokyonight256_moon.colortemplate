@@ -11,6 +11,7 @@ MessageWindow           -> Pmenu
 PopupNotification       -> Todo
 ; See `:help lCursor`
 lCursor                 -> Cursor
+CurSearch               -> IncSearch
 ; Custom
 debugBreakpoint         -> ModeMsg
 debugPC                 -> CursorLine
