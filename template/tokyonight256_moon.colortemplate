@@ -67,8 +67,8 @@ Color: uispecial        #65bcff        ~
 
 Normal                  dark15         dark7
 ColorColumn             none           dark0
-Conceal                 none           none
-Cursor                  none           none           reverse
+Conceal                 dark5          none
+Cursor                  dark7          dark15
 CursorColumn            none           dark9
 CursorLine              none           dark9
 CursorLineNr            dark5          none
