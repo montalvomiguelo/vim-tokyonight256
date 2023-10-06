@@ -29,6 +29,17 @@ vimParenSep             -> Normal
 vimCommentString        -> Comment
 gitCommitSummary        -> Title
 markdownUrl             -> String
+CocErrorSign            -> omit
+CocWarningSign          -> omit
+CocInfoSign             -> omit
+CocHintSign             -> omit
+CocErrorFloat           -> omit
+CocWarningFloat         -> omit
+CocInfoFloat            -> omit
+CocHintFloat            -> omit
+GitGutterAdd            -> omit
+GitGutterChange         -> omit
+GitGutterDelete         -> omit
 ; }}}
 
 Variant:    gui 256
@@ -62,6 +73,9 @@ Color: uispellrare      #4fd6be        ~
 Color: uiidentifier     #c099ff        ~
 Color: uipreproc        #86e1fc        ~
 Color: uispecial        #65bcff        ~
+Color: gitsignadd       #627259        ~
+Color: gitsignchange    #485a86        ~
+Color: gitsigndelete    #b55a67        ~
 
 ; Highlight group definitions
 
@@ -128,6 +142,18 @@ CursorIM                dark7          dark15
 ; See `:help window-toolbar`
 ToolbarLine             none           dark0
 ToolbarButton           dark15         dark0          bold
+; plug defs
+CocErrorSign            dark10         none
+CocWarningSign          dark4          none
+CocInfoSign             dark6          none
+CocHintSign             uispellrare    none
+CocErrorFloat           dark10         none
+CocWarningFloat         dark4          none
+CocInfoFloat            dark6          none
+CocHintFloat            uispellrare    none
+GitGutterAdd            gitsignadd     none
+GitGutterChange         gitsignchange  none
+GitGutterDelete         gitsigndelete  none
 
 ; Terminal colors {{{
 Term colors: dark0 dark1 dark2 dark3 dark4 dark5 dark6 dark7
