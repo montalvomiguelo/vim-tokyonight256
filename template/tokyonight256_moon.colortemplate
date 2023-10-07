@@ -144,12 +144,12 @@ ToolbarLine             none           dark0
 ToolbarButton           dark15         dark0          bold
 ; plug defs
 CocErrorSign            dark10         none
-CocWarningSign          dark4          none
-CocInfoSign             dark6          none
+CocWarningSign          dark6          none
+CocInfoSign             uispelllocal   none
 CocHintSign             uispellrare    none
 CocErrorFloat           dark10         none
-CocWarningFloat         dark4          none
-CocInfoFloat            dark6          none
+CocWarningFloat         dark6          none
+CocInfoFloat            uispelllocal   none
 CocHintFloat            uispellrare    none
 GitGutterAdd            gitsignadd     none
 GitGutterChange         gitsignchange  none
