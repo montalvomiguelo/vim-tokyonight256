@@ -132,7 +132,7 @@ VertSplit               dark0          none
 Visual                  none           dark11
 VisualNOS               none           dark11
 WarningMsg              dark13         none
-WildMenu                dark6          none
+WildMenu                none           dark11
 ; Other conventional group names (see `:help group-name`)
 Comment                 dark8          none
 Constant                dark15         none
