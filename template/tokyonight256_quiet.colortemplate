@@ -40,6 +40,18 @@ CurSearch               -> IncSearch
 ; Custom
 debugBreakpoint         -> ModeMsg
 debugPC                 -> CursorLine
+; ft&plug links
+CocErrorSign            -> omit
+CocWarningSign          -> omit
+CocInfoSign             -> omit
+CocHintSign             -> omit
+CocErrorFloat           -> omit
+CocWarningFloat         -> omit
+CocInfoFloat            -> omit
+CocHintFloat            -> omit
+GitGutterAdd            -> omit
+GitGutterChange         -> omit
+GitGutterDelete         -> omit
 ; }}}
 
 Variant:    gui 256
@@ -70,6 +82,9 @@ Color: uipmenuselect    #363c58        ~
 Color: uisearch         #3e68d7        ~
 Color: uispelllocal     #0db9d7        ~
 Color: uispellrare      #4fd6be        ~
+Color: gitsignadd       #627259        ~
+Color: gitsignchange    #485a86        ~
+Color: gitsigndelete    #b55a67        ~
 
 ; Highlight group definitions
 Normal                  dark15         dark7
@@ -135,6 +150,18 @@ CursorIM                none           none
 ; See `:help window-toolbar`
 ToolbarLine             none           dark0
 ToolbarButton           dark15         dark0          bold
+; plug defs
+CocErrorSign            dark10         none
+CocWarningSign          dark6          none
+CocInfoSign             uispelllocal   none
+CocHintSign             uispellrare    none
+CocErrorFloat           dark10         none
+CocWarningFloat         dark6          none
+CocInfoFloat            uispelllocal   none
+CocHintFloat            uispellrare    none
+GitGutterAdd            gitsignadd     none
+GitGutterChange         gitsignchange  none
+GitGutterDelete         gitsigndelete  none
 
 ; Terminal colors {{{
 Term colors: dark0 dark1 dark2 dark3 dark4 dark5 dark6 dark7
