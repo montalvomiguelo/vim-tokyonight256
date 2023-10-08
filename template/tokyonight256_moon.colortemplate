@@ -12,6 +12,8 @@ PopupNotification       -> Todo
 ; See `:help lCursor`
 lCursor                 -> Cursor
 CurSearch               -> IncSearch
+LineNrAbove             -> LineNr
+LineNrBelow             -> LineNr
 ; Custom
 debugBreakpoint         -> ModeMsg
 debugPC                 -> CursorLine
@@ -76,6 +78,8 @@ Color: uispecial        #65bcff        ~
 Color: gitsignadd       #627259        ~
 Color: gitsignchange    #485a86        ~
 Color: gitsigndelete    #b55a67        ~
+Color: green            #c3e88d        ~
+Color: operator         #89ddff        ~
 
 ; Highlight group definitions
 
@@ -128,6 +132,12 @@ WildMenu                none           dark11
 ; Other conventional group names (see `:help group-name`)
 Comment                 dark8          none
 Constant                dark4          none
+String                  green          none
+Character               green          none
+Debug                   dark4          none
+Function                dark12         none
+Operator                operator       none
+Keyword                 uipreproc      none
 Error                   dark10         none
 Identifier              uiidentifier   none
 Ignore                  none           none
