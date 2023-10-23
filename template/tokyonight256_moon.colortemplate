@@ -15,8 +15,6 @@ CurSearch               -> IncSearch
 LineNrAbove             -> LineNr
 LineNrBelow             -> LineNr
 ; Custom
-debugBreakpoint         -> ModeMsg
-debugPC                 -> CursorLine
 ; ft&plug links
 javaScriptFunction      -> Statement
 javaScriptIdentifier    -> Statement
@@ -80,6 +78,7 @@ Color: gitsignchange    #485a86        ~
 Color: gitsigndelete    #b55a67        ~
 Color: green            #c3e88d        ~
 Color: operator         #89ddff        ~
+Color: debugbg          #203346        ~
 
 ; Highlight group definitions
 
@@ -152,6 +151,8 @@ CursorIM                dark7          dark15
 ; See `:help window-toolbar`
 ToolbarLine             none           dark0
 ToolbarButton           dark15         dark0          bold
+debugBreakpoint         uispelllocal   debugbg
+debugPC                 none           dark2
 ; plug defs
 CocErrorSign            dark10         none
 CocWarningSign          dark6          none
